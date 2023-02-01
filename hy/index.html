@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <div id="nav" class="container-fluid sticky-top">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center" style="height: 50px;">
+        <div class="logo">
+          <img src="image/logo.png">
+        </div>
+        <div class="menu">
+          <ul>
+            <li onclick="goToScroll('section2')">홈</li>
+            <li onclick="goToScroll('section3')">펫로스</li>
+            <li onclick="goToScroll('section4')">장례</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="section1" class="container-fluid" class=" h-full">
+    <div class="container">
+      <div class="h-full d-flex justify-content-between align-items-center">
+        <h1 class="main-title" data-aos="fade-right" data-aos-duration="1000">
+          이별 준비의 시작과 끝,<br>
+          우리가 다시 만나길 기다리며
+        </h1>
+        <div data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="300">
+          <img class="w-100" style="max-width: 500px;" src="image/main_image_01.png">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section2 h-full">
+    <div class="container">
+      <div class="h-full d-flex justify-content-between align-items-center">
+        <div>
+          <h3 class="point-text" data-aos="fade-right" data-aos-duration="1000">홈</h3>
+          <h1 class="sub-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+            반려동물을 기리는<br>
+            나만의 행성
+          </h1>
+          <p class="sub-content" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+            아이의 이름을 따온 행성에서<br>
+            소중했던 추억을 기록해 보세요.
+          </p>
+        </div>
+        <div data-aos="fade-up-left" data-aos-duration="1000">
+          <img class="w-100" src="image/page02.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section3 pt-5">
+    <div class="container">
+      <h3 class="point-text mt-5" data-aos="fade-right" data-aos-duration="1000">감정 다이어리・펫로스</h3>
+      <h1 class="sub-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+        떠나 보낸 아픔, <br>
+        dealry가 함께 나눌게요
+      </h1>
+      <div class="d-flex align-items-center py-5">
+        <div class="img-box d-flex align-items-center" style="max-width: 50%;" data-aos="fade-right"
+          data-aos-duration="1000" data-aos-delay="50">
+          <img width="100%" src="image/page03_1.png">
+        </div>
+        <div class="ml-5">
+          <h1 class="sub-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+            매일의 감정을<br>
+            기록해서 저장해요
+          </h1>
+          <p class="sub-content" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+            하루의 감정을 기록하고<br>
+            통계로 나의 상태를 돌아봐요
+          </p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center py-5">
+        <div class="img-box" style="max-width: 50%;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50">
+          <img width="100%" src="image/page03_2.png">
+        </div>
+        <div class="ml-5">
+          <h1 class="sub-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+            혹시 나도<br>
+            펫로스 증후군?
+          </h1>
+          <p class="sub-content" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+            ‘감정간이 테스트’를 통해<br>
+            펫로스 증후군을 자가진단 할 수 있어요
+          </p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center py-5">
+        <div class="img-box" style="max-width: 50%;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50">
+          <img width="100%" src="image/page03_3.png">
+        </div>
+        <div class="ml-5">
+          <h1 class="sub-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+            힘들 때에는<br>
+            전문가와 상담해요
+          </h1>
+          <p class="sub-content" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+            상담사와의 오프라인 예약 및<br>
+            테마별 상담을 신청할 수 있어요
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section4 h-full">
+    <div class="container">
+      <div class="h-full d-flex justify-content-between align-items-center">
+        <div>
+          <h3 class="point-text" data-aos="fade-right" data-aos-duration="1000">장례</h3>
+          <h1 class="sub-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+            우리 아이를 위한<br>
+            장소 큐레이션
+          </h1>
+          <p class="sub-content" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+            아이의 마지막을 배웅해 줄 맞춤 장소<br>
+            추천 서비스로 예약까지 편리하게.
+          </p>
+        </div>
+        <div data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="300">
+          <img class="w-100" style="max-width: 500px;" src="image/page04.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
+
+<script>
+  AOS.init();
+
+  function goToScroll(name) {
+    var location = document.querySelector("." + name).offsetTop;
+    window.scrollTo({ top: location, behavior: 'smooth' });
+  }
+</script>
